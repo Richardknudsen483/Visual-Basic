@@ -94,4 +94,4 @@ Public Class CarLot
     Public Shared Sub addToInventory(ByVal newCar As Car)
         'body of the method goes here.
     End Sub
-End Class
+End Class 
