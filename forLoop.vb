@@ -2,22 +2,28 @@ Module Module1
 
     Sub Main()
 
-        Dim i = 0
+        Dim i As Integer = 0
+        Dim j As Integer = 0
 
         For i = 1 To 10
-            Console.WriteLine(i)
 
-            If (i = 7) Then
-                Console.WriteLine("Found Seven")
-                Exit For
+            For j = 1 To i
+                Console.Write(j)
+            Next
 
-            End If
+            Console.WriteLine()
 
         Next
 
-        For i = 5 To 10 Step 2
-            Console.WriteLine(i)
+        For i = 9 To 1 Step -1
+
+            For j = 1 To i
+                Console.Write(j)
+            Next
+
+            Console.WriteLine()
         Next
+
 
         Console.ReadLine()
 
